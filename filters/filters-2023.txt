@@ -1174,3 +1174,6 @@ tokenmix.pro##.BannerMain
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/138602
 /prebid7.$xhr,redirect-rule=noop.js
+
+! unsplash.com camouflaged ads for third-party services
+unsplash.com##figure:has(a[href^="/plus"])
